@@ -1,11 +1,11 @@
 ﻿string=input("enter the string")
-count={}
+co={}
 for char in string:
- if char in count.keys():
-    count[char] +=1
+ if char in co.keys():
+    co[char] +=1
  else:
-    count[char] =1
-for i in count:   
+    co[char] =1
+for j in co:   
   
- print ('%s' %(i))
- print ('*\n'*count[i],)
+ print ('%s' %(j))
+ print ('*\n'*co[j],)
