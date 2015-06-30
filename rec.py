@@ -20,12 +20,12 @@ for root,dirs ,files in os.walk(".", topdown=True):
 			
 			#print dirs,'\n'
 			#print files,'\n'
-	for i in dirs:
-		d['dirs']=i
+	for k in dirs:
+		d['dirs']=k
 	print d	
 		
-	for j in files:
-		f['files']=j
+	for l in files:
+		f['files']=l
 	print f
 	
 					 
